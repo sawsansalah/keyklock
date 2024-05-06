@@ -1,0 +1,12 @@
+postgresql:
+  # If `true`, the Postgresql dependency is enabled
+  enabled: true
+  # PostgreSQL User to create
+  postgresqlUsername: keycloak1
+  # PostgreSQL Password for the new user
+  postgresqlPassword: keycloak1
+  # PostgreSQL Database to create
+  postgresqlDatabase: keycloak1
+  # PostgreSQL network policy configuration
+  networkPolicy:
+    enabled: false
